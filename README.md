@@ -9,3 +9,5 @@ Dentro del repositorio, debes ingresar a la carpeta que contiene el código de l
 
 ```bash
 cd API_prediccion
+```
+Esta carpeta incluye los archivos api.py, requirements.txt y la carpeta models/ con el modelo entrenado
