@@ -9,15 +9,17 @@ El repositorio contiene tres carpetas principales:
 - `backend/` → Código de soporte y lógica del backend, si aplica.  
 - `API_prediccion/` → Código de la API de predicción y modelos entrenados.
 
+
+
+---
+
+## Levantamiento y configuración de la API de modelo predictivo
+
 Dentro de `API_prediccion/` se encuentran:
 
 - `api.py` → Archivo principal de la API.  
 - `requirements.txt` → Lista de dependencias de Python necesarias.  
 - `models/` → Carpeta que contiene `Random_Forest_model.pkl`, el modelo entrenado.
-
----
-
-## Levantamiento y configuración de la API de modelo predictivo
 
 Sigue estos pasos para ejecutar la API de predicción en tu máquina local.
 
