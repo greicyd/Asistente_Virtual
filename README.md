@@ -7,4 +7,5 @@ Sigue estos pasos para ejecutar la API de predicción en tu máquina local.
 
 Dentro del repositorio, debes ingresar a la carpeta que contiene el código de la API
 
+```bash
 cd API_prediccion
