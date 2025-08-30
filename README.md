@@ -28,7 +28,7 @@ Dentro del repositorio, debes ingresar a la carpeta que contiene el código de l
 ```bash
 cd API_prediccion
 ```
-Esta carpeta incluye los archivos api.py, requirements.txt y la carpeta models/ con el modelo entrenado
+Esta carpeta incluye los archivos `api.py`, `requirements.txt` y la carpeta `models/` con el modelo entrenado
 
 Es recomendable usar un entorno virtual para mantener las dependencias aisladas y evitar conflictos con otras instalaciones de Python:
 
