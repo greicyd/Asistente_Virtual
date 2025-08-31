@@ -71,6 +71,26 @@ Dentro de `backend/` se encuentran:
 - `src/` → Código fuente del backend (`controllers/`,`utils/`,`index.js`).  
 - `package.json` y `package-lock.json` → Dependencias del backend.
 
+Previo al levantamiento del backend, se debe de configurar el archivo `src/util/basDeatos.js`, con las credenciales adecuadas acorde a su servidor PostgreSQL y base de datos
+
+```JavaScript
+const { Pool } = require('pg');
+
+const pool = new Pool({
+  host: 'HOST',
+  user: 'USER NAME',
+  port: PORT,
+  password: 'PASSWORD',
+  database: 'DATABASE NAME',
+});
+
+module.exports = {
+  query: (text, params) => pool.query(text, params),
+};
+
+
+```
+
 Sigue estos pasos para ejecutar el backend en tu máquina local.
 
 Dentro del repositorio, debes ingresar a la carpeta que contiene el código del backend
@@ -88,6 +108,7 @@ Una vez instaladas las dependencias, ejecuta el archivo principal para levantar 
 ```bash
 node src/index.js
 ```
+
 
 ## Levantamiento y configuración de la API de modelo predictivo
 
