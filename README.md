@@ -2,7 +2,14 @@
 
 Este proyecto permite desplegar un Asistente Virtual que, mediante una interfaz web, ofrece consultas en tiempo real sobre datos de indicadores de desempeño (KPI). Además, integra un modelo predictivo para anticipar fallos de máquina y brindar soporte en la toma de decisiones. De esta manera, se monitorea de indicadores de desempeño y predicce de fallas en maquinaria, facilitando análisis y toma de decisiones.
 
+## Objetivos
 
+El objetivo de esta aplicación es permitir:
+
+-Realizar consultas sobre indicadores clave de desempeño (KPI) mediante una interfaz web.
+-Mostrar datos históricos y en tiempo real relacionados con la producción y desempeño de las máquinas.
+-Integrar un modelo predictivo para anticipar posibles fallos de máquina.
+-Brindar respuestas en lenguaje natural que faciliten la interpretación de la información.
 
 ## Estructura del proyecto
 
