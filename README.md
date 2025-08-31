@@ -94,7 +94,7 @@ Para un correcto funcionamiento, se debe adaptar el código de los coontroladore
 
 Las funciones `procesarPrediccion` y `generarExplicacionDePrediccion` del controlador de prediccion, debe modificarse el contexto explicando la configuracion de la base de datos de maquina
 
-Las funciones `obtenerConsultaSQL` y `generarRespuestaNatural` del controlador de prediccion, debe modificarse el contexto explicando la configuracion de la base de datos de kpi
+Las funciones `obtenerConsultaSQL` y `generarRespuestaNatural` del controlador de consulta, debe modificarse el contexto explicando la configuracion de la base de datos de kpi
 
 Finalmente, el `src/controllers/loginController` debe adecuarse a la base de datos de usuarios para correcta autenticación
 
