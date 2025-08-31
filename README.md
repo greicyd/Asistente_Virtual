@@ -63,7 +63,7 @@ venv\Scripts\activate
 
 Una vez activado, tu consola debería mostrar el nombre del entorno, por ejemplo (venv)
 
-Con el entorno virtual activo, instala todas las librerías necesarias desde el archivo requirements.txt:
+Con el entorno virtual activo, instala todas las librerías necesarias desde el archivo `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
