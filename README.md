@@ -6,13 +6,13 @@ Este proyecto permite desplegar un Asistente Virtual que, mediante una interfaz 
 
 El objetivo de esta aplicación es permitir:
 
--Realizar consultas sobre indicadores clave de desempeño (KPI) mediante una interfaz web.
+- Realizar consultas sobre indicadores clave de desempeño (KPI) mediante una interfaz web.
 
--Mostrar datos históricos y en tiempo real relacionados con la producción y desempeño de las máquinas.
+- Mostrar datos históricos y en tiempo real relacionados con la producción y desempeño de las máquinas.
 
--Integrar un modelo predictivo para anticipar posibles fallos de máquina.
+- Integrar un modelo predictivo para anticipar posibles fallos de máquina.
 
--Brindar respuestas en lenguaje natural que faciliten la interpretación de la información.
+- Brindar respuestas en lenguaje natural que faciliten la interpretación de la información.
 
 ## Estructura del proyecto
 
