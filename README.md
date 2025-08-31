@@ -1,12 +1,13 @@
-# Asistente Virtual
-Asistente virtual para monitoreo de indicadores de desempeño y predicción de fallas en maquinaria, facilitando análisis y toma de decisiones.
+## Documentación de aplicación de Asistente Virtual
+
+Este proyecto permite desplegar un Asistente Virtual que, mediante una interfaz web, ofrece consultas en tiempo real sobre datos de indicadores de desempeño (KPI). Además, integra un modelo predictivo para anticipar fallos de máquina y brindar soporte en la toma de decisiones. De esta manera, se monitorea de indicadores de desempeño y predicce de fallas en maquinaria, facilitando análisis y toma de decisiones.
 
 ## Estructura del proyecto
 
 El repositorio contiene tres carpetas principales:
 
 - `frontend/` → Código del frontend de la aplicación.  
-- `backend/` → Código de soporte y lógica del backend, si aplica.  
+- `backend/` → Código de soporte y lógica del backend.  
 - `API_prediccion/` → Código de la API de predicción y modelos entrenados.
 
 
