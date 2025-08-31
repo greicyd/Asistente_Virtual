@@ -14,6 +14,12 @@ El objetivo de esta aplicación es permitir:
 
 - Brindar respuestas en lenguaje natural que faciliten la interpretación de la información.
 
+# Requisitos
+
+- INOSEAUN
+
+- BOLLAMA LLAMA3
+
 ## Estructura del proyecto
 
 El repositorio contiene tres carpetas principales:
