@@ -90,6 +90,14 @@ module.exports = {
 ```
 De la misma forma, el sistema esta configurado para trabajar con las tablas `datos_usuarios` , `datos_maquina` , `datos_kpi` 
 
+Para un correcto funcionamiento, se debe adaptar el código de los coontroladores `src/controllers/consultaController` y `src/controllers/prediccionController`
+
+Las funciones `procesarPrediccion` y `generarExplicacionDePrediccion` del controlador de prediccion, debe modificarse el contexto explicando la configuracion de la base de datos de maquina
+
+Las funciones `obtenerConsultaSQL` y `generarRespuestaNatural` del controlador de prediccion, debe modificarse el contexto explicando la configuracion de la base de datos de kpi
+
+Finalmente, el `src/controllers/loginController` debe adecuarse a la base de datos de usuarios para correcta autenticación
+
 Sigue estos pasos para ejecutar el backend en tu máquina local.
 
 Dentro del repositorio, debes ingresar a la carpeta que contiene el código del backend
