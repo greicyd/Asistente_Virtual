@@ -14,11 +14,16 @@ El objetivo de esta aplicación es permitir:
 
 - Brindar respuestas en lenguaje natural que faciliten la interpretación de la información.
 
-# Requisitos
+## Requisitos
 
-- INOSEAUN
-
-- BOLLAMA LLAMA3
+- Sistema operativo: Windows 10 o superior
+- Procesador: x64 compatible
+- Memoria RAM: 16 GB o superior
+- Node.js: versión 22.17.0 o superior (https://nodejs.org/es/download)
+- Python: versión 3.10 o superior (https://www.python.org/downloads/)
+- Ollama: versión 0.9.3 o superior (https://ollama.com/download/windows)
+- Modelo LLaMA3: versión 8b (https://ollama.com/library/llama3)
+- PostgreSQL: verión 17 o superior (https://www.postgresql.org/download/windows/) 
 
 ## Estructura del proyecto
 
@@ -45,6 +50,20 @@ Sigue estos pasos para ejecutar el frontend en tu máquina local.
 
 Dentro del repositorio, debes ingresar a la carpeta que contiene el código del frontend
 
+```bash
+cd frontend
+```
+Instalar todas las dependicencias necesarias
+
+```bash
+npm install
+```
+Una vez instaladas las dependencias, ejecuta el archivo principal para levantar el servidor
+
+```bash
+npm run dev
+```
+
 ## Levantamiento y configuración del backend
 
 Dentro de `backend/` se encuentran:
@@ -55,6 +74,20 @@ Dentro de `backend/` se encuentran:
 Sigue estos pasos para ejecutar el backend en tu máquina local.
 
 Dentro del repositorio, debes ingresar a la carpeta que contiene el código del backend
+
+```bash
+cd backend
+```
+Instalar todas las dependicencias necesarias
+
+```bash
+npm install
+```
+Una vez instaladas las dependencias, ejecuta el archivo principal para levantar el servidor
+
+```bash
+node src/index.js
+```
 
 ## Levantamiento y configuración de la API de modelo predictivo
 
