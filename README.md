@@ -71,7 +71,7 @@ Dentro de `backend/` se encuentran:
 - `src/` → Código fuente del backend (`controllers/`,`utils/`,`index.js`).  
 - `package.json` y `package-lock.json` → Dependencias del backend.
 
-Previo al levantamiento del backend, se debe de configurar el archivo `src/util/basDeatos.js`, con las credenciales adecuadas acorde a su servidor PostgreSQL y base de datos
+Previo al levantamiento del backend, se debe de configurar el archivo `src/util/baseDatos.js`, con las credenciales adecuadas acorde a su servidor PostgreSQL y base de datos
 
 ```JavaScript
 const { Pool } = require('pg');
@@ -79,7 +79,7 @@ const { Pool } = require('pg');
 const pool = new Pool({
   host: 'HOST',
   user: 'USER NAME',
-  port: PORT,
+  port: PUERTO,
   password: 'PASSWORD',
   database: 'DATABASE NAME',
 });
@@ -87,9 +87,8 @@ const pool = new Pool({
 module.exports = {
   query: (text, params) => pool.query(text, params),
 };
-
-
 ```
+De la misma forma, el sistema esta configurado para trabajar con las tablas `datos_usuarios` , `datos_maquina` , `datos_kpi` 
 
 Sigue estos pasos para ejecutar el backend en tu máquina local.
 
