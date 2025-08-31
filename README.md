@@ -1,6 +1,8 @@
-## Documentación de aplicación de Asistente Virtual
+# Documentación de aplicación de Asistente Virtual
 
 Este proyecto permite desplegar un Asistente Virtual que, mediante una interfaz web, ofrece consultas en tiempo real sobre datos de indicadores de desempeño (KPI). Además, integra un modelo predictivo para anticipar fallos de máquina y brindar soporte en la toma de decisiones. De esta manera, se monitorea de indicadores de desempeño y predicce de fallas en maquinaria, facilitando análisis y toma de decisiones.
+
+
 
 ## Estructura del proyecto
 
