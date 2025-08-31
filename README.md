@@ -22,15 +22,39 @@ El objetivo de esta aplicación es permitir:
 
 ## Estructura del proyecto
 
-El repositorio contiene tres carpetas principales:
+El repositorio contiene tres carpetas principales relacionadas al levantamiento del sistema del asistente virtual:
 
-- `frontend/` → Código del frontend de la aplicación.  
-- `backend/` → Código de soporte y lógica del backend.  
+- `frontend/` → Código del diseño visual de la aplicación de Asistente Virtual.  
+- `backend/` → Código de soporte y lógica del sistema.  
 - `API_prediccion/` → Código de la API de predicción y modelos entrenados.
 
 
-
 ---
+## Levantamiento y configuración del frontend
+
+Dentro de `frontend/` se encuentran:
+
+- `src/` → Código fuente del frontend (componentes, vistas, lógica).
+- `public/` → Archivos estáticos públicos.
+- `index.html` → Archivo HTML base.
+- `vite.config.js` → Configuración de Vite para el proyecto.
+- `eslint.config.js` → Configuración de reglas de linting.
+- `package.json` y `package-lock.json` → Dependencias del frontend.
+
+Sigue estos pasos para ejecutar el frontend en tu máquina local.
+
+Dentro del repositorio, debes ingresar a la carpeta que contiene el código del frontend
+
+## Levantamiento y configuración del backend
+
+Dentro de `backend/` se encuentran:
+
+- `src/` → Código fuente del backend (`controllers/`,`utils/`,`index.js`).  
+- `package.json` y `package-lock.json` → Dependencias del backend.
+
+Sigue estos pasos para ejecutar el backend en tu máquina local.
+
+Dentro del repositorio, debes ingresar a la carpeta que contiene el código del backend
 
 ## Levantamiento y configuración de la API de modelo predictivo
 
